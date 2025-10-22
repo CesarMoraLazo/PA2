@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    font-family: sans-serif;
+    color: #fff;
+}
+/**PAGINA PRINCIPAL**/
+.fondo-chocolate {
+    background-image: url(img/chocolate-background-k7l479l228ylrhyt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 170px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+}
+
+.inicio h1{
+    margin: 0 auto;
+    font-size: 55px;
+    padding: 20px;
+}
+.inicio p{
+    font-size: 20px;
+}
+
+nav{
+    margin:20px;
+    height: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a{
+    color: white;
+    transition: color 0.3s ease, opacity 0.3s ease;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: grey;
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+footer a{
+    color: white;
+    transition: color 0.3s ease, opacity 0.3s ease
+}
+footer a:hover{
+    color: gray;
+    opacity: 0.6;
+}
+
+
+
+
+
+body.contenedor {
+    background-color: #4d371e;
+    color: #a18151;
+    padding: 50px;
+}
+
+
+.encabezado{
+    background-color: #c0a377;
+    /*posicionamiento fijo*/
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;  
+    text-align: center;
+}
+
+
+.contenido-general main {
+    margin-top: 60px;
+}
+
+.come-chocolate img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.autor img{
+    height: 50px;
+    border-radius: 50%;
+}
+.autor{
+    font-size: 14px;
+    text-align: end;
+}
+
+.formato-principal h1{
+    font-size: 20px;
+}
+
+.amigo-chocolate{
+    display: flex;
+    flex-direction: row;
+}
+
+.amigo-chocolate p{
+    margin-left: 18px;
+}
+.amigo-chocolate img{
+    width: 100px;
+}
+
+.formato-principal h1{
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+
+/*GALERIA*/
+
+.galeria-fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); /* 3 imágenes por fila */
+    gap: 10px; /* Espacio entre imágenes */
+    justify-items: center; /* Centra cada imagen dentro de su celda */
+    margin: 20px auto;
+}
+
+.galeria-foto img {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 10px 9px 4px rgba(0,0,0,0.3);
+    filter: grayscale(60%) brightness(90%);
+    transition: all 0.3s ease-in-out;
+}
+.galeria-foto p{
+    text-align: center;
+}
+
+
+
+
+/*VIDEOS*/
+.formato-videos h2{
+    text-align: center;
+}
+
+.video-responsive iframe{
+    align-items: center;
+    height: 500px;
+    width: 850px;
+    
+}
